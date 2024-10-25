@@ -1,0 +1,9 @@
+### create
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "username": "u2001",
+    "password": "wf@secret",
+    "role": "USER"
+}
